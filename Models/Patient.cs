@@ -8,10 +8,10 @@ namespace Homework2
     public class Patient
     {
         public int PatientId {get; set;}
-        public string FirstName {get; set;}
-        public string LastName {get; set;}
+        public string FirstName {get; set;} = string.Empty;
+        public string LastName {get; set;} = string.Empty;
         public int Age {get; set;}
-        public string Gender {get; set;}
+        public string Gender {get; set;} = string.Empty;
         public DateTime AdmitDate {get; set;}
         public bool HadExam {get; set;}
     }

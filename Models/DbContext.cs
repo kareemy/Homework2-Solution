@@ -12,6 +12,6 @@ namespace Homework2
             optionsBuilder.UseSqlite("Data Source=database.db");
         }
         // Reference to Patient entity class so it can be referenced in the database
-        public DbSet<Patient> Patients {get; set;}
+        public DbSet<Patient> Patients {get; set;} = null!;
     }
 }
